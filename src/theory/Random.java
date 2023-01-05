@@ -14,13 +14,13 @@ public class Random {
             int b = 10; // The final value of the range - "to"
 
             int random_number1 = a + (int) (Math.random() * b); // Generation of the 1st number
-            System.out.println("1-ое случайное число: " + random_number1);
+            System.out.println("First random number: " + random_number1);
 
             int random_number2 = a + (int) (Math.random() * b); // Generation of the 2nd number
-            System.out.println("2-ое случайное число: " + random_number2);
+            System.out.println("Second random number: " + random_number2);
 
             int random_number3 = a + (int) (Math.random() * b); // Generation of the 3rd number
-            System.out.println("3-е случайное число: " + random_number3);
+            System.out.println("Third random number: " + random_number3);
         }
 
         {
